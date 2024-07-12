@@ -1,0 +1,8 @@
+{
+    "mysqlserver1": {
+        "host": "103.231.217.170",                 
+        "user": "vmax",
+        "password": "vmx123DB,",
+        "database": "veremaxpo"
+    }
+}

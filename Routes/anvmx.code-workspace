@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../Project/BMS-server"
+		},
+		{
+			"path": "../../../hrms"
+		}
+	],
+	"settings": {}
+}
