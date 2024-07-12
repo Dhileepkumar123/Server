@@ -15,7 +15,7 @@ async function adddistricts(req) {
       try {
         console.log("add data", data);
         let sqlquery = `SELECT * FROM city_mas WHERE city_name='${data.district_name}' And state_mas_id = '${data.state_id}' limit 1`;
-        console.log('Districts query', sqlquery);
+        // console.log('Districts query', sqlquery);
         let [[resp]] = await conn.query(sqlquery)
         console.log('result', resp);
         if (resp) {
